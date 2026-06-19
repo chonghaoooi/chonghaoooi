@@ -1,0 +1,12 @@
+<svg width="760" height="66" viewBox="0 0 760 66" xmlns="http://www.w3.org/2000/svg" shape-rendering="crispEdges">
+  <rect x="8" y="8" width="744" height="50" fill="#3b174f"/>
+  <rect x="4" y="14" width="752" height="38" fill="#3b174f"/>
+  <rect x="12" y="12" width="736" height="42" fill="#fff4dc"/>
+  <rect x="18" y="18" width="724" height="30" fill="#f6d273"/>
+  <g font-family="Courier New,monospace" font-size="19" font-weight="700" fill="#55234e" text-anchor="middle">
+    <text x="380" y="39">DEVELOPER WHO SHIPS PRACTICAL TOOLS<animate attributeName="opacity" values="1;1;0;0;0" keyTimes="0;.22;.28;.99;1" dur="12s" repeatCount="indefinite"/></text>
+    <text x="380" y="39" opacity="0">AUTOMATION BUILDER<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;.28;.34;.55;.61;1" dur="12s" repeatCount="indefinite"/></text>
+    <text x="380" y="39" opacity="0">FULL-STACK EXPLORER + ANDROID MAKER<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;.61;.67;.92;1" dur="12s" repeatCount="indefinite"/></text>
+  </g>
+  <g fill="#ee7d63"><rect x="28" y="28" width="8" height="8"/><rect x="724" y="28" width="8" height="8"/><animate attributeName="opacity" values="1;.2;1" dur="1s" repeatCount="indefinite"/></g>
+</svg>

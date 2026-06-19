@@ -3,15 +3,15 @@
 </p>
 
 <p align="center">
-  <img src="./assets/typing-line.svg" alt="Developer, automation builder, full-stack explorer, and Android maker" width="700" />
+  <img src="./assets/pixel-dialog.svg" alt="Animated pixel dialogue: developer, automation builder, full-stack explorer, and Android maker" width="760" />
 </p>
 
 <p align="center">
-  <a href="https://github.com/chonghaoooi?tab=repositories"><img src="https://img.shields.io/badge/Projects-Explore-00D9FF?style=for-the-badge&logo=github&logoColor=white" alt="Explore my projects" /></a>&nbsp;
-  <a href="mailto:chonghaoooi28@gmail.com"><img src="https://img.shields.io/badge/Email-Let's%20talk-7C3AED?style=for-the-badge&logo=gmail&logoColor=white" alt="Email me" /></a>
+  <a href="https://github.com/chonghaoooi?tab=repositories"><img src="https://img.shields.io/badge/QUESTS-EXPLORE-EE7D63?style=for-the-badge&logo=github&logoColor=FFF4DC" alt="Explore my projects" /></a>&nbsp;
+  <a href="mailto:chonghaoooi28@gmail.com"><img src="https://img.shields.io/badge/SEND_A_MESSAGE-247E8A?style=for-the-badge&logo=gmail&logoColor=FFF4DC" alt="Email me" /></a>
 </p>
 
-## Hello, I'm Chong Hao 👋
+## 🏝️ Player One
 
 I'm a developer and student at **Singapore Polytechnic** who likes turning small, annoying problems into software that quietly gets the job done.
 
@@ -20,9 +20,9 @@ I'm a developer and student at **Singapore Polytechnic** who likes turning small
 - 🌱 I'm currently sharpening my backend engineering, mobile development, and product design skills.
 - 💬 Ask me about JavaScript, Node.js, Chrome extensions, Kotlin, or automating repetitive workflows.
 
-## Selected work
+## 🗺️ Featured Quests
 
-<p align="center"><img src="./assets/section-pulse.svg" alt="Animated signal divider" width="100%" /></p>
+<p align="center"><img src="./assets/pixel-shore-divider.svg" alt="Animated pixel shoreline with shells and a tiny crab" width="100%" /></p>
 
 <table>
   <tr>
@@ -51,18 +51,18 @@ I'm a developer and student at **Singapore Polytechnic** who likes turning small
   </tr>
 </table>
 
-## Toolbox
+## 🎒 Tool Inventory
 
 <p align="center">
-  <img src="./assets/tech-marquee.svg" alt="Animated technology marquee: JavaScript, Node.js, Express, MySQL, HTML, CSS, Kotlin, Java, Android, Git, GitHub, and VS Code" width="100%" />
+  <img src="./assets/pixel-toolbox.svg" alt="Animated pixel-art tool icons: JavaScript, Node.js, Express, MySQL, HTML, CSS, Kotlin, Java, Android, Git, GitHub, and VS Code" width="100%" />
 </p>
 
-## GitHub snapshot
+## ⛵ Island Quest Map
 
 <p align="center">
-  <img src="./assets/dev-dashboard.svg" alt="Animated dashboard showing Chong Hao's development focus" width="100%" />
+  <img src="./assets/island-quest-map.svg" alt="Animated pixel-art developer quest map with a sailing boat" width="100%" />
 </p>
 
 <p align="center">
-  <img src="./assets/footer-wave.svg" alt="Build something useful. Learn what breaks. Make the next version better." width="100%" />
+  <img src="./assets/pixel-sunset-footer.svg" alt="Animated pixel beach footer: build, learn, level up, repeat" width="100%" />
 </p>

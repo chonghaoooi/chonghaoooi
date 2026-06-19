@@ -1,0 +1,31 @@
+<svg width="1000" height="340" viewBox="0 0 1000 340" xmlns="http://www.w3.org/2000/svg" shape-rendering="crispEdges">
+  <rect width="1000" height="340" rx="20" fill="#165a72"/>
+  <g fill="#247e8a"><rect y="36" width="1000" height="12"/><rect y="126" width="1000" height="10"/><rect y="252" width="1000" height="12"/></g>
+  <g fill="#63d2c6" opacity=".8"><rect x="20" y="82" width="90" height="6"/><rect x="184" y="82" width="58" height="6"/><rect x="354" y="82" width="112" height="6"/><rect x="640" y="82" width="74" height="6"/><rect x="810" y="82" width="128" height="6"/><rect x="80" y="290" width="120" height="6"/><rect x="360" y="290" width="86" height="6"/><rect x="650" y="290" width="120" height="6"/><animateTransform attributeName="transform" type="translate" values="-50 0;45 0;-50 0" dur="6s" repeatCount="indefinite"/></g>
+  <!-- Route -->
+  <path d="M120 250C220 164 290 204 378 138S560 70 646 150s132 100 228 20" fill="none" stroke="#f6d273" stroke-width="7" stroke-dasharray="5 15"/>
+
+  <!-- Automation island -->
+  <g><path d="M52 256h24v-18h20v-12h52v10h24v18h24v34H52z" fill="#e3a64d"/><rect x="86" y="214" width="58" height="18" fill="#176b55"/><rect x="102" y="196" width="18" height="30" fill="#29956f"/><rect x="122" y="192" width="18" height="34" fill="#29956f"/><g fill="#70402c"><rect x="108" y="220" width="8" height="8"/><rect x="128" y="216" width="8" height="8"/></g><rect x="76" y="264" width="96" height="30" fill="#fff4dc"/><text x="124" y="284" text-anchor="middle" font-family="Courier New" font-size="14" font-weight="700" fill="#55234e">AUTOMATION</text></g>
+
+  <!-- Web island -->
+  <g><path d="M302 138h22v-22h22v-14h76v12h28v22h24v36H302z" fill="#e3a64d"/><rect x="338" y="84" width="96" height="46" fill="#73306f"/><rect x="346" y="92" width="80" height="30" fill="#fff4dc"/><rect x="354" y="100" width="32" height="6" fill="#ee7d63"/><rect x="354" y="112" width="58" height="5" fill="#247e8a"/><rect x="326" y="148" width="124" height="30" fill="#fff4dc"/><text x="388" y="168" text-anchor="middle" font-family="Courier New" font-size="14" font-weight="700" fill="#55234e">WEB + APIS</text></g>
+
+  <!-- Android island -->
+  <g><path d="M570 164h20v-24h24v-12h70v12h30v24h20v36H570z" fill="#e3a64d"/><rect x="622" y="102" width="52" height="52" fill="#a4c639"/><rect x="630" y="94" width="36" height="20" fill="#a4c639"/><path d="M636 98l-8-12M660 98l8-12" stroke="#a4c639" stroke-width="5"/><rect x="638" y="101" width="4" height="4" fill="#3b174f"/><rect x="654" y="101" width="4" height="4" fill="#3b174f"/><rect x="590" y="176" width="124" height="30" fill="#fff4dc"/><text x="652" y="196" text-anchor="middle" font-family="Courier New" font-size="14" font-weight="700" fill="#55234e">ANDROID</text></g>
+
+  <!-- Native tools island / treasure -->
+  <g><path d="M796 192h18v-28h24v-18h78v14h28v28h22v38H796z" fill="#e3a64d"/><rect x="844" y="120" width="56" height="42" fill="#8d5638"/><rect x="838" y="132" width="68" height="12" fill="#f6d273"/><rect x="866" y="132" width="12" height="30" fill="#fff4dc"/><rect x="820" y="202" width="126" height="30" fill="#fff4dc"/><text x="883" y="222" text-anchor="middle" font-family="Courier New" font-size="14" font-weight="700" fill="#55234e">NATIVE TOOLS</text><animate attributeName="opacity" values=".8;1;.8" dur="1.5s" repeatCount="indefinite"/></g>
+
+  <!-- Sailing player -->
+  <g>
+    <rect x="-22" y="4" width="44" height="12" fill="#8d5638"/>
+    <rect x="-3" y="-28" width="6" height="32" fill="#3b174f"/>
+    <path d="M3-26l26 22H3z" fill="#fff4dc"/>
+    <path d="M-3-18l-16 14h16z" fill="#ee7d63"/>
+    <animateMotion path="M120 250C220 164 290 204 378 138S560 70 646 150s132 100 228 20" dur="12s" repeatCount="indefinite" rotate="auto"/>
+  </g>
+
+  <g font-family="Courier New,monospace" fill="#fff4dc" font-weight="700"><text x="24" y="28" font-size="18">CURRENT QUEST: KEEP SHIPPING</text><text x="976" y="320" text-anchor="end" font-size="14">EXPLORE  →  BUILD  →  LEVEL UP</text></g>
+  <g fill="#ffe07a"><rect x="950" y="24" width="8" height="8"/><rect x="946" y="28" width="16" height="8"/><animate attributeName="opacity" values="1;.2;1" dur="1s" repeatCount="indefinite"/></g>
+</svg>
