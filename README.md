@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/pixel-beach-banner-v4.svg" alt="Chong Hao Ooi — animated pixel beach where the Codex cloud mascot serves seated Clawd a coconut as three dolphins leap across the water" width="100%" />
+  <img src="./assets/pixel-beach-banner-v5.svg" alt="Chong Hao Ooi — animated pixel beach where the Codex cloud mascot serves seated Clawd a coconut as three dolphins breach and dive across the water" width="100%" />
 </p>
 
 <p align="center">
