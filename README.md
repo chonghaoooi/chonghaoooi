@@ -69,15 +69,15 @@ I'm a developer and student at **Singapore Polytechnic** who likes turning small
 
 <p align="center">
   <a href="https://github.com/chonghaoooi">
-    <img width="49%" src="https://github-readme-stats.vercel.app/api?username=chonghaoooi&amp;show_icons=true&amp;rank_icon=github&amp;title_color=EE7D63&amp;text_color=3B174F&amp;icon_color=247E8A&amp;bg_color=FFF4DC&amp;border_color=E3A64D&amp;border_radius=10" alt="Chong Hao's GitHub stats" />
-  </a>
-  <a href="https://github.com/chonghaoooi?tab=repositories">
-    <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=chonghaoooi&amp;layout=compact&amp;langs_count=6&amp;title_color=EE7D63&amp;text_color=3B174F&amp;bg_color=FFF4DC&amp;border_color=E3A64D&amp;border_radius=10" alt="Chong Hao's most used languages" />
+    <img width="96%" src="https://streak-stats.demolab.com/?user=chonghaoooi&amp;stroke=EE7D63&amp;background=FFF4DC&amp;ring=247E8A&amp;fire=EE7D63&amp;currStreakNum=3B174F&amp;sideNums=3B174F&amp;currStreakLabel=247E8A&amp;sideLabels=3B174F&amp;dates=3B174F&amp;border=E3A64D&amp;border_radius=10" alt="Chong Hao's GitHub streak" />
   </a>
 </p>
 <p align="center">
   <a href="https://github.com/chonghaoooi">
-    <img width="60%" src="https://streak-stats.demolab.com/?user=chonghaoooi&amp;stroke=EE7D63&amp;background=FFF4DC&amp;ring=247E8A&amp;fire=EE7D63&amp;currStreakNum=3B174F&amp;sideNums=3B174F&amp;currStreakLabel=247E8A&amp;sideLabels=3B174F&amp;dates=3B174F&amp;border=E3A64D&amp;border_radius=10" alt="Chong Hao's GitHub streak" />
+    <img width="47%" src="https://github-readme-stats.vercel.app/api?username=chonghaoooi&amp;show_icons=true&amp;hide_rank=true&amp;title_color=EE7D63&amp;text_color=3B174F&amp;icon_color=247E8A&amp;bg_color=FFF4DC&amp;border_color=E3A64D&amp;border_radius=10" alt="Chong Hao's GitHub stats" />
+  </a>
+  <a href="https://github.com/chonghaoooi?tab=repositories">
+    <img width="47%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=chonghaoooi&amp;layout=compact&amp;langs_count=6&amp;title_color=EE7D63&amp;text_color=3B174F&amp;bg_color=FFF4DC&amp;border_color=E3A64D&amp;border_radius=10" alt="Chong Hao's most used languages" />
   </a>
 </p>
 
