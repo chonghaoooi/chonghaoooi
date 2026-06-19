@@ -89,6 +89,84 @@
       <animateTransform attributeName="transform" type="rotate" values="0 1043 141;0 1043 141;-540 1043 141;-540 1043 141" keyTimes="0;.18;.72;1" dur="5s" begin="2.5s" repeatCount="indefinite"/>
     </rect>
 
+    <!-- Claude relaxing in a pixel beach chair -->
+    <g>
+      <!-- Chair -->
+      <path d="M408 250h18l44 52h-18z" fill="#6b3e32"/>
+      <path d="M422 250h82l-38 44h-16z" fill="#fff4dc"/>
+      <path d="M432 258h58l-9 10h-41z" fill="#ee7d63"/>
+      <path d="M444 274h34l-9 10h-17z" fill="#ee7d63"/>
+      <rect x="420" y="300" width="72" height="7" fill="#6b3e32"/>
+      <rect x="424" y="306" width="8" height="12" fill="#6b3e32"/>
+      <rect x="480" y="306" width="8" height="12" fill="#6b3e32"/>
+      <!-- Claude -->
+      <g>
+        <rect x="438" y="238" width="32" height="30" fill="#d97757"/>
+        <rect x="432" y="244" width="44" height="18" fill="#d97757"/>
+        <rect x="438" y="234" width="32" height="8" fill="#b94d72"/>
+        <rect x="440" y="248" width="13" height="7" fill="#3b174f"/>
+        <rect x="458" y="248" width="13" height="7" fill="#3b174f"/>
+        <rect x="453" y="250" width="5" height="3" fill="#3b174f"/>
+        <rect x="446" y="260" width="18" height="4" fill="#fff4dc"/>
+        <path d="M448 268h32l22 28h-38z" fill="#73306f"/>
+        <rect x="494" y="278" width="32" height="9" fill="#d97757"/>
+        <rect x="520" y="274" width="10" height="13" fill="#d97757"/>
+        <rect x="466" y="294" width="44" height="10" fill="#73306f"/>
+        <rect x="498" y="302" width="28" height="8" fill="#d97757"/>
+        <animateTransform attributeName="transform" type="translate" values="0 0;0 -2;0 0" dur="3s" repeatCount="indefinite"/>
+      </g>
+      <rect x="427" y="309" width="72" height="11" fill="#fff4dc"/>
+      <text x="463" y="318" text-anchor="middle" fill="#55234e" font-family="Courier New,monospace" font-size="10" font-weight="700">CLAUDE</text>
+    </g>
+
+    <!-- Codex walks over and serves Claude a coconut -->
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0 0;-112 0;-112 0;0 0;0 0" keyTimes="0;.32;.66;.86;1" dur="8s" repeatCount="indefinite"/>
+      <!-- Serving tray -->
+      <rect x="684" y="270" width="54" height="6" fill="#fff4dc"/>
+      <rect x="704" y="276" width="14" height="5" fill="#8d5638"/>
+      <!-- Coconut on tray before handoff -->
+      <g>
+        <rect x="696" y="248" width="26" height="22" fill="#70402c"/>
+        <rect x="701" y="244" width="16" height="6" fill="#fff4dc"/>
+        <rect x="714" y="232" width="4" height="16" fill="#ee7d63"/>
+        <rect x="718" y="230" width="9" height="4" fill="#ee7d63"/>
+        <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;.5;.56;.88;1" dur="8s" repeatCount="indefinite"/>
+      </g>
+      <!-- Codex pixel server -->
+      <rect x="744" y="232" width="44" height="38" fill="#247e8a"/>
+      <rect x="750" y="238" width="32" height="24" fill="#103f5b"/>
+      <rect x="756" y="245" width="6" height="6" fill="#8ce4d5"/>
+      <rect x="770" y="245" width="6" height="6" fill="#8ce4d5"/>
+      <rect x="760" y="255" width="12" height="4" fill="#8ce4d5"/>
+      <rect x="764" y="222" width="5" height="10" fill="#3b174f"/>
+      <rect x="760" y="218" width="13" height="5" fill="#ffe07a"><animate attributeName="opacity" values="1;.2;1" dur="1s" repeatCount="indefinite"/></rect>
+      <rect x="738" y="270" width="56" height="38" fill="#176b55"/>
+      <rect x="748" y="278" width="36" height="20" fill="#fff4dc"/>
+      <text x="766" y="291" text-anchor="middle" fill="#55234e" font-family="Courier New,monospace" font-size="9" font-weight="700">CODEX</text>
+      <rect x="730" y="274" width="12" height="9" fill="#247e8a"/>
+      <rect x="790" y="274" width="12" height="9" fill="#247e8a"/>
+      <rect x="744" y="306" width="14" height="12" fill="#103f5b"><animate attributeName="y" values="306;302;306" dur=".55s" repeatCount="indefinite"/></rect>
+      <rect x="776" y="306" width="14" height="12" fill="#103f5b"><animate attributeName="y" values="302;306;302" dur=".55s" repeatCount="indefinite"/></rect>
+    </g>
+
+    <!-- Coconut in Claude's hand after the handoff -->
+    <g opacity="0">
+      <rect x="526" y="268" width="22" height="20" fill="#70402c"/>
+      <rect x="530" y="264" width="14" height="5" fill="#fff4dc"/>
+      <rect x="541" y="253" width="4" height="14" fill="#ee7d63"/>
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;.52;.58;.82;1" dur="8s" repeatCount="indefinite"/>
+    </g>
+
+    <!-- Claude's thank-you bubble -->
+    <g opacity="0">
+      <rect x="494" y="214" width="78" height="24" fill="#3b174f"/>
+      <rect x="498" y="210" width="70" height="24" fill="#fff4dc"/>
+      <rect x="510" y="234" width="8" height="8" fill="#fff4dc"/>
+      <text x="533" y="226" text-anchor="middle" fill="#55234e" font-family="Courier New,monospace" font-size="12" font-weight="700">THANKS!</text>
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;.58;.64;.78;1" dur="8s" repeatCount="indefinite"/>
+    </g>
+
     <!-- Pixel title -->
     <g filter="url(#text-shadow)" font-family="Courier New,monospace" text-anchor="middle">
       <text x="600" y="118" fill="#fff4dc" font-size="54" font-weight="900" letter-spacing="3">CHONG HAO OOI</text>
