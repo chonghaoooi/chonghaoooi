@@ -63,6 +63,21 @@ I'm a developer and student at **Singapore Polytechnic** who likes turning small
   <img src="./assets/island-quest-map.svg" alt="Animated pixel-art developer quest map with a sailing boat" width="100%" />
 </p>
 
+## 📜 Captain's Log
+
+<p align="center">
+  <a href="https://github.com/chonghaoooi">
+    <img height="170" src="https://github-readme-stats.vercel.app/api?username=chonghaoooi&amp;show_icons=true&amp;include_all_commits=true&amp;rank_icon=github&amp;title_color=EE7D63&amp;text_color=3B174F&amp;icon_color=247E8A&amp;bg_color=FFF4DC&amp;border_color=E3A64D&amp;border_radius=10" alt="Chong Hao's GitHub stats" />
+  </a>
+  <a href="https://github.com/chonghaoooi?tab=repositories">
+    <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=chonghaoooi&amp;layout=compact&amp;langs_count=8&amp;title_color=EE7D63&amp;text_color=3B174F&amp;bg_color=FFF4DC&amp;border_color=E3A64D&amp;border_radius=10" alt="Chong Hao's most used languages" />
+  </a>
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=chonghaoooi&amp;background=FFF4DC&amp;border=E3A64D&amp;stroke=247E8A&amp;ring=EE7D63&amp;fire=B94D72&amp;currStreakNum=3B174F&amp;sideNums=3B174F&amp;currStreakLabel=B94D72&amp;sideLabels=247E8A&amp;dates=6B5A67&amp;border_radius=10" alt="Chong Hao's GitHub contribution streak" />
+</p>
+
 <p align="center">
   <img src="./assets/pixel-sunset-footer.svg" alt="Animated pixel beach footer: build, learn, level up, repeat" width="100%" />
 </p>
