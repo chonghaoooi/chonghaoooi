@@ -1,7 +1,7 @@
 <svg width="1200" height="518" viewBox="0 62 1200 518" xmlns="http://www.w3.org/2000/svg" shape-rendering="crispEdges">
 <defs>
 
-  <!-- STANDARD CLAWD — feet at (0,0), body extends upward -->
+  <!-- STANDARD CLAWD — feet at (0,0) -->
   <g id="c">
     <g fill="#d37355">
       <rect x="-21" y="-41" width="42" height="30"/>
@@ -15,7 +15,7 @@
     <rect x="10"  y="-37" width="5" height="5" fill="#0d0d0d"/>
   </g>
 
-  <!-- TARGET CLAWD — red + white waldo hat -->
+  <!-- TARGET CLAWD body (no hat — hat drawn separately so it can animate) -->
   <g id="cw">
     <g fill="#d37355">
       <rect x="-21" y="-41" width="42" height="30"/>
@@ -27,13 +27,10 @@
     </g>
     <rect x="-16" y="-37" width="5" height="5" fill="#0d0d0d"/>
     <rect x="10"  y="-37" width="5" height="5" fill="#0d0d0d"/>
-    <!-- Hat brim -->
+    <!-- Waldo hat -->
     <rect x="-22" y="-54" width="44" height="7"  fill="#cc2233"/>
-    <!-- Hat crown -->
     <rect x="-14" y="-72" width="28" height="20" fill="#cc2233"/>
-    <!-- White stripe -->
     <rect x="-14" y="-65" width="28" height="6"  fill="#fff4dc"/>
-    <!-- Brim underside -->
     <rect x="-22" y="-49" width="44" height="3"  fill="#aa1122"/>
   </g>
 
@@ -87,7 +84,7 @@
     <rect x="2"   y="-40" width="3"  height="3"  fill="#0d0d0d"/>
   </g>
 
-  <!-- BEACH UMBRELLA — base at (0,0), extends upward -->
+  <!-- BEACH UMBRELLA -->
   <g id="umb">
     <rect x="-2"  y="-90" width="4"  height="90" fill="#8d5638"/>
     <rect x="-44" y="-90" width="88" height="26" fill="#ee7d63"/>
@@ -98,7 +95,7 @@
     <rect x="-46" y="-66" width="92" height="4"  fill="#8d5638"/>
   </g>
 
-  <!-- SANDCASTLE — base at (0,0) -->
+  <!-- SANDCASTLE -->
   <g id="sc">
     <rect x="-20" y="-36" width="40" height="36" fill="#c8923a"/>
     <rect x="-13" y="-48" width="26" height="14" fill="#c8923a"/>
@@ -111,8 +108,7 @@
 
 </defs>
 
-
-<!-- ══════════════════ SKY ══════════════════ -->
+<!-- SKY -->
 <rect y="62"  width="1200" height="38" fill="#44205e"/>
 <rect y="100" width="1200" height="38" fill="#73306f"/>
 <rect y="138" width="1200" height="38" fill="#b94d72"/>
@@ -126,7 +122,7 @@
   <rect x="494" y="104" width="182" height="88"/>
   <rect x="504" y="192" width="162" height="12"/>
   <rect x="520" y="204" width="130" height="8"/>
-  <animate attributeName="opacity" values=".92;1;.92" dur="4s" repeatCount="indefinite"/>
+  <animate attributeName="opacity" values=".88;1;.88" dur="4s" repeatCount="indefinite"/>
 </g>
 
 <!-- Clouds -->
@@ -140,10 +136,11 @@
   <animateTransform attributeName="transform" type="translate" values="-20 0;20 0;-20 0" dur="18s" repeatCount="indefinite"/>
 </g>
 
-<!-- ══════════════════ OCEAN ══════════════════ -->
+<!-- OCEAN -->
 <rect y="238" width="1200" height="100" fill="#165a72"/>
 <rect y="248" width="1200" height="16"  fill="#247e8a"/>
 <rect y="306" width="1200" height="32"  fill="#103f5b"/>
+
 <!-- Wave layer 1 -->
 <g fill="#63d2c6">
   <rect x="0"    y="254" width="106" height="6"/>
@@ -155,6 +152,7 @@
   <rect x="1088" y="254" width="112" height="6"/>
   <animateTransform attributeName="transform" type="translate" values="-90 0;20 0;-90 0" dur="5s" repeatCount="indefinite"/>
 </g>
+
 <!-- Wave layer 2 -->
 <g fill="#8ce4d5" opacity=".8">
   <rect x="74"   y="282" width="114" height="5"/>
@@ -166,10 +164,9 @@
   <animateTransform attributeName="transform" type="translate" values="25 0;-70 0;25 0" dur="4s" repeatCount="indefinite"/>
 </g>
 
-<!-- ══════════════════ BEACH ══════════════════ -->
+<!-- BEACH -->
 <rect y="338" width="1200" height="242" fill="#e3a64d"/>
 <rect y="338" width="1200" height="10"  fill="#f6d273"/>
-<!-- Sand texture dots -->
 <g fill="#bd743c" opacity=".6">
   <rect x="95"   y="360" width="12" height="6"/>
   <rect x="280"  y="382" width="8"  height="5"/>
@@ -183,37 +180,41 @@
   <rect x="1060" y="460" width="8"  height="4"/>
 </g>
 
-<!-- ══════════════════ PALM TREES ══════════════════ -->
-<!-- Left palm -->
-<g fill="#6b3e32"><rect x="44" y="244" width="16" height="106"/></g>
-<g fill="#176b55">
-  <rect x="8"   y="216" width="74" height="14"/>
-  <rect x="0"   y="228" width="56" height="12"/>
-  <rect x="58"  y="222" width="66" height="12"/>
-  <rect x="96"  y="234" width="54" height="12"/>
-  <rect x="38"  y="200" width="20" height="48"/>
+<!-- PALM TREES (swaying) -->
+<g>
+  <animateTransform attributeName="transform" type="rotate" values="-2 52 350;2 52 350;-2 52 350" dur="3.6s" repeatCount="indefinite"/>
+  <g fill="#6b3e32"><rect x="44" y="244" width="16" height="106"/></g>
+  <g fill="#176b55">
+    <rect x="8"  y="216" width="74" height="14"/>
+    <rect x="0"  y="228" width="56" height="12"/>
+    <rect x="58" y="222" width="66" height="12"/>
+    <rect x="96" y="234" width="54" height="12"/>
+    <rect x="38" y="200" width="20" height="48"/>
+  </g>
+  <g fill="#29956f">
+    <rect x="4"  y="206" width="66" height="12"/>
+    <rect x="60" y="212" width="66" height="12"/>
+    <rect x="42" y="194" width="16" height="48"/>
+  </g>
 </g>
-<g fill="#29956f">
-  <rect x="4"   y="206" width="66" height="12"/>
-  <rect x="60"  y="212" width="66" height="12"/>
-  <rect x="42"  y="194" width="16" height="48"/>
-</g>
-<!-- Right palm -->
-<g fill="#6b3e32"><rect x="1140" y="244" width="16" height="106"/></g>
-<g fill="#176b55">
-  <rect x="1118" y="216" width="74" height="14"/>
-  <rect x="1144" y="228" width="56" height="12"/>
-  <rect x="1076" y="222" width="66" height="12"/>
-  <rect x="1050" y="234" width="54" height="12"/>
-  <rect x="1142" y="200" width="20" height="48"/>
-</g>
-<g fill="#29956f">
-  <rect x="1130" y="206" width="66" height="12"/>
-  <rect x="1074" y="212" width="66" height="12"/>
-  <rect x="1142" y="194" width="16" height="48"/>
+<g>
+  <animateTransform attributeName="transform" type="rotate" values="2 1148 350;-2 1148 350;2 1148 350" dur="4.2s" repeatCount="indefinite"/>
+  <g fill="#6b3e32"><rect x="1140" y="244" width="16" height="106"/></g>
+  <g fill="#176b55">
+    <rect x="1118" y="216" width="74" height="14"/>
+    <rect x="1144" y="228" width="56" height="12"/>
+    <rect x="1076" y="222" width="66" height="12"/>
+    <rect x="1050" y="234" width="54" height="12"/>
+    <rect x="1142" y="200" width="20" height="48"/>
+  </g>
+  <g fill="#29956f">
+    <rect x="1130" y="206" width="66" height="12"/>
+    <rect x="1074" y="212" width="66" height="12"/>
+    <rect x="1142" y="194" width="16" height="48"/>
+  </g>
 </g>
 
-<!-- ══════════════════ BACK ROW (y=400) ══════════════════ -->
+<!-- BACK ROW (y=400) -->
 <use href="#umb" x="112"  y="400"/>
 <use href="#c"   x="202"  y="400"/>
 <use href="#pb"  x="296"  y="400"/>
@@ -227,11 +228,11 @@
 <use href="#c"   x="1024" y="400"/>
 <use href="#pb"  x="1114" y="400"/>
 
-<!-- ══════════════════ MIDDLE ROW (y=462) ══════════════════ -->
+<!-- MIDDLE ROW (y=462) -->
 <use href="#pb"  x="84"   y="462"/>
 <use href="#c"   x="176"  y="462"/>
 <use href="#pg"  x="270"  y="462"/>
-<!-- Sunbather inline -->
+<!-- Sunbather -->
 <g transform="translate(368 444)">
   <rect x="-32" y="-5"  width="64" height="9"  fill="#ee7d63"/>
   <rect x="-36" y="-5"  width="4"  height="9"  fill="#f6d273"/>
@@ -244,19 +245,26 @@
 <use href="#pr"  x="472"  y="462"/>
 <use href="#c"   x="562"  y="462"/>
 <use href="#py"  x="656"  y="462"/>
-<!-- ★★★ TARGET: CLAWD WITH WALDO HAT ★★★ -->
-<g transform="translate(782 462)">
-  <g>
-    <animateTransform attributeName="transform" type="translate" values="0 0;0 -9;0 0" keyTimes="0;.35;1" dur="1.8s" repeatCount="indefinite"/>
-    <use href="#cw"/>
-  </g>
+
+<!-- TARGET CLAWD — bounces up and down, hat shimmers -->
+<g>
+  <animateTransform attributeName="transform" type="translate" values="782 462;782 451;782 462" keyTimes="0;.38;1" dur="1.8s" repeatCount="indefinite"/>
+  <use href="#cw"/>
 </g>
+<!-- Shimmering hat highlight on top of Clawd -->
+<g>
+  <animateTransform attributeName="transform" type="translate" values="782 462;782 451;782 462" keyTimes="0;.38;1" dur="1.8s" repeatCount="indefinite"/>
+  <rect x="-10" y="-69" width="10" height="4" fill="#ff6680" opacity="0">
+    <animate attributeName="opacity" values="0;.9;0" dur="1.8s" repeatCount="indefinite"/>
+  </rect>
+</g>
+
 <use href="#pg"  x="876"  y="462"/>
 <use href="#c"   x="968"  y="462"/>
 <use href="#umb" x="1072" y="462"/>
 <use href="#py"  x="1156" y="462"/>
 
-<!-- ══════════════════ FRONT ROW (y=528) ══════════════════ -->
+<!-- FRONT ROW (y=528) -->
 <use href="#py"  x="108"  y="528"/>
 <use href="#c"   x="208"  y="528"/>
 <!-- Beach towel -->
@@ -274,9 +282,5 @@
 <use href="#pb"  x="988"  y="528"/>
 <use href="#c"   x="1078" y="528"/>
 <use href="#pp"  x="1168" y="528"/>
-
-
-<!-- ══════════════════ SPOILER BLUR PANEL (click hint) ══════════════════ -->
-<!-- Answer hidden — Clawd with hat is at roughly 65% across, middle row -->
 
 </svg>
