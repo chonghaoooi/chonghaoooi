@@ -8,10 +8,12 @@
 
 <p align="center">
   <a href="https://github.com/chonghaoooi?tab=repositories"><img src="https://img.shields.io/badge/QUESTS-EXPLORE-EE7D63?style=for-the-badge&logo=github&logoColor=FFF4DC" alt="Explore my projects" /></a>&nbsp;
-  <a href="mailto:chonghaoooi28@gmail.com"><img src="https://img.shields.io/badge/SEND_A_MESSAGE-247E8A?style=for-the-badge&logo=gmail&logoColor=FFF4DC" alt="Email me" /></a>
+  <a href="mailto:chonghaoooi28@gmail.com"><img src="https://img.shields.io/badge/SEND_A_MESSAGE-247E8A?style=for-the-badge&logo=gmail&logoColor=FFF4DC" alt="Email me" /></a>&nbsp;
+  <a href="https://github.com/chonghaoooi"><img src="https://img.shields.io/github/followers/chonghaoooi?label=FOLLOW&style=for-the-badge&color=44205e&logo=github&logoColor=FFF4DC" alt="Follow on GitHub" /></a>&nbsp;
+  <img src="https://komarev.com/ghpvc/?username=chonghaoooi&style=for-the-badge&color=73306f&label=PROFILE+VIEWS" alt="Profile views" />
 </p>
 
-## 🏝️ Player One
+## 👾 hey!! i'm ch!!
 
 I'm a developer and student at **Singapore Polytechnic** who likes turning small, annoying problems into software that quietly gets the job done.
 
@@ -71,6 +73,11 @@ I'm a developer and student at **Singapore Polytechnic** who likes turning small
   </a>
   <a href="https://github.com/chonghaoooi?tab=repositories">
     <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=chonghaoooi&amp;layout=compact&amp;langs_count=6&amp;title_color=EE7D63&amp;text_color=3B174F&amp;bg_color=FFF4DC&amp;border_color=E3A64D&amp;border_radius=10" alt="Chong Hao's most used languages" />
+  </a>
+</p>
+<p align="center">
+  <a href="https://github.com/chonghaoooi">
+    <img width="60%" src="https://streak-stats.demolab.com/?user=chonghaoooi&amp;stroke=EE7D63&amp;background=FFF4DC&amp;ring=247E8A&amp;fire=EE7D63&amp;currStreakNum=3B174F&amp;sideNums=3B174F&amp;currStreakLabel=247E8A&amp;sideLabels=3B174F&amp;dates=3B174F&amp;border=E3A64D&amp;border_radius=10" alt="Chong Hao's GitHub streak" />
   </a>
 </p>
 

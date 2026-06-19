@@ -2,28 +2,84 @@
   <rect width="1000" height="340" rx="20" fill="#165a72"/>
   <g fill="#247e8a"><rect y="36" width="1000" height="12"/><rect y="126" width="1000" height="10"/><rect y="252" width="1000" height="12"/></g>
   <g fill="#63d2c6" opacity=".8"><rect x="20" y="82" width="90" height="6"/><rect x="184" y="82" width="58" height="6"/><rect x="354" y="82" width="112" height="6"/><rect x="640" y="82" width="74" height="6"/><rect x="810" y="82" width="128" height="6"/><rect x="80" y="290" width="120" height="6"/><rect x="360" y="290" width="86" height="6"/><rect x="650" y="290" width="120" height="6"/><animateTransform attributeName="transform" type="translate" values="-50 0;45 0;-50 0" dur="6s" repeatCount="indefinite"/></g>
-  <!-- Route -->
-  <path d="M120 250C220 164 290 204 378 138S560 70 646 150s132 100 228 20" fill="none" stroke="#f6d273" stroke-width="7" stroke-dasharray="5 15"/>
 
-  <!-- Automation island -->
-  <g><path d="M52 256h24v-18h20v-12h52v10h24v18h24v34H52z" fill="#e3a64d"/><rect x="86" y="214" width="58" height="18" fill="#176b55"/><rect x="102" y="196" width="18" height="30" fill="#29956f"/><rect x="122" y="192" width="18" height="34" fill="#29956f"/><g fill="#70402c"><rect x="108" y="220" width="8" height="8"/><rect x="128" y="216" width="8" height="8"/></g><rect x="76" y="264" width="96" height="30" fill="#fff4dc"/><text x="124" y="284" text-anchor="middle" font-family="Courier New" font-size="14" font-weight="700" fill="#55234e">AUTOMATION</text></g>
+  <!-- Route: Web+API → Android → Native Tools → Python → Automation -->
+  <path d="M107 254C165 196 228 176 297 180 S428 136 487 144 S626 158 677 180 S808 244 867 254" fill="none" stroke="#f6d273" stroke-width="7" stroke-dasharray="5 15"/>
 
-  <!-- Web island -->
-  <g><path d="M302 138h22v-22h22v-14h76v12h28v22h24v36H302z" fill="#e3a64d"/><rect x="338" y="84" width="96" height="46" fill="#73306f"/><rect x="346" y="92" width="80" height="30" fill="#fff4dc"/><rect x="354" y="100" width="32" height="6" fill="#ee7d63"/><rect x="354" y="112" width="58" height="5" fill="#247e8a"/><rect x="326" y="148" width="124" height="30" fill="#fff4dc"/><text x="388" y="168" text-anchor="middle" font-family="Courier New" font-size="14" font-weight="700" fill="#55234e">WEB + APIS</text></g>
+  <!-- Island 1: WEB + API (start) -->
+  <g>
+    <path d="M35 272h24v-18h20v-12h52v10h24v18h24v28H35z" fill="#e3a64d"/>
+    <rect x="79" y="192" width="56" height="50" fill="#165a72"/>
+    <rect x="79" y="192" width="56" height="9" fill="#247e8a"/>
+    <rect x="81" y="194" width="4" height="5" fill="#ee7d63"/>
+    <rect x="87" y="194" width="4" height="5" fill="#f6d273"/>
+    <rect x="93" y="194" width="4" height="5" fill="#63d2c6"/>
+    <rect x="79" y="201" width="56" height="41" fill="#fff4dc"/>
+    <rect x="83" y="205" width="34" height="4" fill="#247e8a"/>
+    <rect x="83" y="213" width="48" height="4" fill="#ee7d63"/>
+    <rect x="83" y="221" width="24" height="4" fill="#247e8a"/>
+    <rect x="83" y="229" width="42" height="4" fill="#f6d273"/>
+    <rect x="35" y="300" width="144" height="26" fill="#fff4dc"/>
+    <text x="107" y="318" text-anchor="middle" font-family="Courier New" font-size="13" font-weight="700" fill="#55234e">WEB + API</text>
+  </g>
 
-  <!-- Android island -->
-  <g><path d="M570 164h20v-24h24v-12h70v12h30v24h20v36H570z" fill="#e3a64d"/><rect x="622" y="102" width="52" height="52" fill="#a4c639"/><rect x="630" y="94" width="36" height="20" fill="#a4c639"/><path d="M636 98l-8-12M660 98l8-12" stroke="#a4c639" stroke-width="5"/><rect x="638" y="101" width="4" height="4" fill="#3b174f"/><rect x="654" y="101" width="4" height="4" fill="#3b174f"/><rect x="590" y="176" width="124" height="30" fill="#fff4dc"/><text x="652" y="196" text-anchor="middle" font-family="Courier New" font-size="14" font-weight="700" fill="#55234e">ANDROID</text></g>
+  <!-- Island 2: ANDROID -->
+  <g>
+    <path d="M225 198h24v-18h20v-12h52v10h24v18h24v28H225z" fill="#e3a64d"/>
+    <rect x="266" y="112" width="62" height="56" fill="#a4c639"/>
+    <rect x="274" y="104" width="38" height="18" fill="#a4c639"/>
+    <path d="M278 108l-10-16M319 108l10-16" stroke="#a4c639" stroke-width="5"/>
+    <rect x="278" y="110" width="5" height="5" fill="#3b174f"/>
+    <rect x="299" y="110" width="5" height="5" fill="#3b174f"/>
+    <rect x="225" y="226" width="144" height="26" fill="#fff4dc"/>
+    <text x="297" y="244" text-anchor="middle" font-family="Courier New" font-size="13" font-weight="700" fill="#55234e">ANDROID</text>
+  </g>
 
-  <!-- Native tools island / treasure -->
-  <g><path d="M796 192h18v-28h24v-18h78v14h28v28h22v38H796z" fill="#e3a64d"/><rect x="844" y="120" width="56" height="42" fill="#8d5638"/><rect x="838" y="132" width="68" height="12" fill="#f6d273"/><rect x="866" y="132" width="12" height="30" fill="#fff4dc"/><rect x="820" y="202" width="126" height="30" fill="#fff4dc"/><text x="883" y="222" text-anchor="middle" font-family="Courier New" font-size="14" font-weight="700" fill="#55234e">NATIVE TOOLS</text><animate attributeName="opacity" values=".8;1;.8" dur="1.5s" repeatCount="indefinite"/></g>
+  <!-- Island 3: NATIVE TOOLS (peak) -->
+  <g>
+    <path d="M415 162h24v-18h20v-12h52v10h24v18h24v28H415z" fill="#e3a64d"/>
+    <rect x="459" y="84" width="56" height="48" fill="#8d5638"/>
+    <rect x="453" y="97" width="68" height="13" fill="#f6d273"/>
+    <rect x="484" y="84" width="10" height="48" fill="#fff4dc"/>
+    <rect x="415" y="190" width="144" height="26" fill="#fff4dc"/>
+    <text x="487" y="208" text-anchor="middle" font-family="Courier New" font-size="12" font-weight="700" fill="#55234e">NATIVE TOOLS</text>
+  </g>
 
-  <!-- Sailing player -->
+  <!-- Island 4: PYTHON -->
+  <g>
+    <path d="M605 198h24v-18h20v-12h52v10h24v18h24v28H605z" fill="#e3a64d"/>
+    <!-- Python: yellow P on blue block -->
+    <rect x="649" y="108" width="56" height="60" fill="#3776ab"/>
+    <rect x="655" y="114" width="6" height="48" fill="#ffd343"/>
+    <rect x="661" y="114" width="22" height="6" fill="#ffd343"/>
+    <rect x="661" y="136" width="22" height="6" fill="#ffd343"/>
+    <rect x="683" y="120" width="6" height="16" fill="#ffd343"/>
+    <rect x="605" y="226" width="144" height="26" fill="#fff4dc"/>
+    <text x="677" y="244" text-anchor="middle" font-family="Courier New" font-size="13" font-weight="700" fill="#55234e">PYTHON</text>
+  </g>
+
+  <!-- Island 5: AUTOMATION (end/boss) -->
+  <g>
+    <path d="M795 272h24v-18h20v-12h52v10h24v18h24v28H795z" fill="#e3a64d"/>
+    <rect x="833" y="188" width="68" height="54" fill="#247e8a"/>
+    <rect x="827" y="200" width="80" height="20" fill="#247e8a"/>
+    <rect x="855" y="188" width="14" height="54" fill="#165a72"/>
+    <rect x="849" y="210" width="26" height="10" fill="#165a72"/>
+    <rect x="884" y="194" width="6" height="6" fill="#f6d273"/>
+    <rect x="886" y="192" width="2" height="10" fill="#f6d273"/>
+    <rect x="882" y="196" width="10" height="2" fill="#f6d273"/>
+    <rect x="795" y="300" width="144" height="26" fill="#fff4dc"/>
+    <text x="867" y="318" text-anchor="middle" font-family="Courier New" font-size="13" font-weight="700" fill="#55234e">AUTOMATION</text>
+    <animate attributeName="opacity" values=".8;1;.8" dur="1.5s" repeatCount="indefinite"/>
+  </g>
+
+  <!-- Sailing boat -->
   <g>
     <rect x="-22" y="4" width="44" height="12" fill="#8d5638"/>
     <rect x="-3" y="-28" width="6" height="32" fill="#3b174f"/>
     <path d="M3-26l26 22H3z" fill="#fff4dc"/>
     <path d="M-3-18l-16 14h16z" fill="#ee7d63"/>
-    <animateMotion path="M120 250C220 164 290 204 378 138S560 70 646 150s132 100 228 20" dur="12s" repeatCount="indefinite" rotate="auto"/>
+    <animateMotion path="M107 254C165 196 228 176 297 180 S428 136 487 144 S626 158 677 180 S808 244 867 254" dur="12s" repeatCount="indefinite" rotate="auto"/>
   </g>
 
   <g font-family="Courier New,monospace" fill="#fff4dc" font-weight="700"><text x="24" y="28" font-size="18">CURRENT QUEST: KEEP SHIPPING</text><text x="976" y="320" text-anchor="end" font-size="14">EXPLORE  →  BUILD  →  LEVEL UP</text></g>
