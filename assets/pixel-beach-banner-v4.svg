@@ -1,6 +1,11 @@
 <svg width="1200" height="320" viewBox="0 0 1200 320" xmlns="http://www.w3.org/2000/svg" shape-rendering="crispEdges">
   <defs>
     <clipPath id="frame"><rect width="1200" height="320" rx="24"/></clipPath>
+    <linearGradient id="codex-cloud-gradient" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c5b8ff"/>
+      <stop offset=".45" stop-color="#6677ff"/>
+      <stop offset="1" stop-color="#2929ee"/>
+    </linearGradient>
     <filter id="text-shadow" x="-20%" y="-20%" width="140%" height="150%">
       <feFlood flood-color="#3b174f" result="color"/>
       <feComposite in="color" in2="SourceAlpha" operator="in" result="shadow"/>
@@ -45,6 +50,28 @@
     <g fill="#8ce4d5" opacity=".8">
       <rect x="64" y="238" width="98" height="5"/><rect x="240" y="238" width="54" height="5"/><rect x="376" y="238" width="110" height="5"/><rect x="590" y="238" width="72" height="5"/><rect x="744" y="238" width="120" height="5"/><rect x="970" y="238" width="92" height="5"/>
       <animateTransform attributeName="transform" type="translate" values="25 0;-70 0;25 0" dur="4s" repeatCount="indefinite"/>
+    </g>
+
+    <!-- Three pixel dolphins leap from left to right in sequence -->
+    <g fill="#8ce4d5">
+      <g>
+        <path d="M0 14l10-8v6h10V8h20v4h12v4h10v8H48v5H34v7h-8v-8H14v-4H0z"/>
+        <rect x="34" y="14" width="5" height="5" fill="#103f5b"/>
+        <animateTransform attributeName="transform" type="translate" values="230 254;300 188;380 254" keyTimes="0;.5;1" dur="4.8s" begin="0s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.12;.82;1" dur="4.8s" begin="0s" repeatCount="indefinite"/>
+      </g>
+      <g>
+        <path d="M0 14l10-8v6h10V8h20v4h12v4h10v8H48v5H34v7h-8v-8H14v-4H0z"/>
+        <rect x="34" y="14" width="5" height="5" fill="#103f5b"/>
+        <animateTransform attributeName="transform" type="translate" values="500 254;580 188;660 254" keyTimes="0;.5;1" dur="4.8s" begin="1.2s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.12;.82;1" dur="4.8s" begin="1.2s" repeatCount="indefinite"/>
+      </g>
+      <g>
+        <path d="M0 14l10-8v6h10V8h20v4h12v4h10v8H48v5H34v7h-8v-8H14v-4H0z"/>
+        <rect x="34" y="14" width="5" height="5" fill="#103f5b"/>
+        <animateTransform attributeName="transform" type="translate" values="770 254;850 188;930 254" keyTimes="0;.5;1" dur="4.8s" begin="2.4s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.12;.82;1" dur="4.8s" begin="2.4s" repeatCount="indefinite"/>
+      </g>
     </g>
 
     <!-- Beach -->
@@ -103,15 +130,15 @@
       <g>
         <!-- Exact block silhouette from the supplied Clawd reference -->
         <g fill="#d37355">
-          <rect x="442" y="236" width="57" height="41"/>
-          <rect x="428" y="250" width="84" height="14"/>
-          <rect x="442" y="277" width="7" height="15"/>
-          <rect x="456" y="277" width="7" height="15"/>
-          <rect x="477" y="277" width="7" height="15"/>
-          <rect x="491" y="277" width="8" height="15"/>
+          <rect x="447" y="242" width="42" height="30"/>
+          <rect x="437" y="252" width="62" height="10"/>
+          <rect x="447" y="272" width="5" height="11"/>
+          <rect x="457" y="272" width="5" height="11"/>
+          <rect x="473" y="272" width="5" height="11"/>
+          <rect x="484" y="272" width="5" height="11"/>
         </g>
-        <rect x="449" y="242" width="7" height="7" fill="#000"/>
-        <rect x="484" y="242" width="7" height="7" fill="#000"/>
+        <rect x="452" y="246" width="5" height="5" fill="#000"/>
+        <rect x="478" y="246" width="5" height="5" fill="#000"/>
         <!-- Excited double jump as Codex walks closer -->
         <animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 -12;0 0;0 -8;0 0;0 0" keyTimes="0;.12;.18;.24;.3;.36;1" dur="8s" repeatCount="indefinite"/>
       </g>
@@ -133,21 +160,26 @@
         <rect x="718" y="230" width="9" height="4" fill="#ee7d63"/>
         <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;.5;.56;.88;1" dur="8s" repeatCount="indefinite"/>
       </g>
-      <!-- Codex pixel server -->
-      <rect x="744" y="232" width="44" height="38" fill="#247e8a"/>
-      <rect x="750" y="238" width="32" height="24" fill="#103f5b"/>
-      <rect x="756" y="245" width="6" height="6" fill="#8ce4d5"/>
-      <rect x="770" y="245" width="6" height="6" fill="#8ce4d5"/>
-      <rect x="760" y="255" width="12" height="4" fill="#8ce4d5"/>
-      <rect x="764" y="222" width="5" height="10" fill="#3b174f"/>
-      <rect x="760" y="218" width="13" height="5" fill="#ffe07a"><animate attributeName="opacity" values="1;.2;1" dur="1s" repeatCount="indefinite"/></rect>
-      <rect x="738" y="270" width="56" height="38" fill="#176b55"/>
-      <rect x="748" y="278" width="36" height="20" fill="#fff4dc"/>
-      <text x="766" y="291" text-anchor="middle" fill="#55234e" font-family="Courier New,monospace" font-size="9" font-weight="700">CODEX</text>
-      <rect x="730" y="274" width="12" height="9" fill="#247e8a"/>
-      <rect x="790" y="274" width="12" height="9" fill="#247e8a"/>
-      <rect x="744" y="306" width="14" height="12" fill="#103f5b"><animate attributeName="y" values="306;302;306" dur=".55s" repeatCount="indefinite"/></rect>
-      <rect x="776" y="306" width="14" height="12" fill="#103f5b"><animate attributeName="y" values="302;306;302" dur=".55s" repeatCount="indefinite"/></rect>
+      <!-- Codex cloud-terminal mascot -->
+      <g fill="url(#codex-cloud-gradient)">
+        <rect x="750" y="220" width="22" height="6"/>
+        <rect x="742" y="226" width="42" height="6"/>
+        <rect x="736" y="232" width="54" height="8"/>
+        <rect x="730" y="240" width="66" height="24"/>
+        <rect x="736" y="264" width="54" height="8"/>
+        <rect x="748" y="272" width="32" height="6"/>
+      </g>
+      <!-- White terminal prompt from the Codex mark -->
+      <g fill="#f7f9ff">
+        <rect x="747" y="243" width="5" height="5"/>
+        <rect x="752" y="248" width="5" height="5"/>
+        <rect x="747" y="253" width="5" height="5"/>
+        <rect x="770" y="253" width="13" height="5"/>
+      </g>
+      <rect x="722" y="268" width="14" height="8" fill="#5669ff"/>
+      <rect x="790" y="268" width="14" height="8" fill="#3b45f4"/>
+      <rect x="742" y="278" width="14" height="12" fill="#20299e"><animate attributeName="y" values="278;274;278" dur=".55s" repeatCount="indefinite"/></rect>
+      <rect x="774" y="278" width="14" height="12" fill="#20299e"><animate attributeName="y" values="274;278;274" dur=".55s" repeatCount="indefinite"/></rect>
     </g>
 
     <!-- Coconut in Claude's hand after the handoff -->
