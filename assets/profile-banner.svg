@@ -1,0 +1,55 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#07111F"/>
+      <stop offset="0.52" stop-color="#101A34"/>
+      <stop offset="1" stop-color="#17102E"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="305" y1="82" x2="900" y2="232" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00D9FF"/>
+      <stop offset="1" stop-color="#A855F7"/>
+    </linearGradient>
+    <radialGradient id="glowBlue" cx="0" cy="0" r="1" gradientTransform="translate(150 40) rotate(38) scale(390 280)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00D9FF" stop-opacity="0.23"/>
+      <stop offset="1" stop-color="#00D9FF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowPurple" cx="0" cy="0" r="1" gradientTransform="translate(1080 300) rotate(-140) scale(420 300)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A855F7" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#A855F7" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="12"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="320" rx="24" fill="url(#bg)"/>
+  <rect width="1200" height="320" rx="24" fill="url(#glowBlue)"/>
+  <rect width="1200" height="320" rx="24" fill="url(#glowPurple)"/>
+
+  <g opacity="0.17" stroke="#B8D8FF">
+    <path d="M0 72H1200M0 152H1200M0 232H1200"/>
+    <path d="M120 0V320M280 0V320M440 0V320M600 0V320M760 0V320M920 0V320M1080 0V320"/>
+  </g>
+
+  <g opacity="0.8">
+    <circle cx="105" cy="76" r="5" fill="#00D9FF"/>
+    <circle cx="1092" cy="246" r="6" fill="#A855F7"/>
+    <circle cx="105" cy="76" r="18" fill="#00D9FF" fill-opacity="0.16" filter="url(#soft)"/>
+    <circle cx="1092" cy="246" r="22" fill="#A855F7" fill-opacity="0.18" filter="url(#soft)"/>
+  </g>
+
+  <g transform="translate(90 105)" stroke="url(#accent)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M42 0L0 55L42 110"/>
+    <path d="M112 0L154 55L112 110"/>
+    <path d="M94 4L60 106"/>
+  </g>
+
+  <text x="300" y="142" fill="white" font-family="Segoe UI, Arial, sans-serif" font-size="54" font-weight="700" letter-spacing="0.5">Chong Hao Ooi</text>
+  <rect x="302" y="166" width="620" height="4" rx="2" fill="url(#accent)"/>
+  <text x="300" y="217" fill="#B8C5DA" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="400" letter-spacing="1.2">BUILDING USEFUL SOFTWARE FOR EVERYDAY PROBLEMS</text>
+
+  <g transform="translate(1060 58)" fill="none" stroke="url(#accent)" stroke-width="3" opacity="0.8">
+    <path d="M25 0L50 14V42L25 56L0 42V14L25 0Z"/>
+    <path d="M25 11L40 20V36L25 45L10 36V20L25 11Z"/>
+  </g>
+</svg>
