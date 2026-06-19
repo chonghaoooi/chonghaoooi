@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/pixel-beach-banner-v3.svg" alt="Chong Hao Ooi — animated pixel beach where Codex serves Claude's jumping crab mascot a coconut" width="100%" />
+  <img src="./assets/pixel-beach-banner-v3.svg" alt="Chong Hao Ooi — animated pixel beach where Codex serves Claude Code's jumping Clawd mascot a coconut" width="100%" />
 </p>
 
 <p align="center">

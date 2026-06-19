@@ -89,7 +89,7 @@
       <animateTransform attributeName="transform" type="rotate" values="0 1043 141;0 1043 141;-540 1043 141;-540 1043 141" keyTimes="0;.18;.72;1" dur="5s" begin="2.5s" repeatCount="indefinite"/>
     </rect>
 
-    <!-- Claude's cute crab mascot relaxing in a pixel beach chair -->
+    <!-- Claude Code's Clawd mascot relaxing in a pixel beach chair -->
     <g>
       <!-- Chair -->
       <path d="M408 250h18l44 52h-18z" fill="#6b3e32"/>
@@ -99,40 +99,19 @@
       <rect x="420" y="300" width="72" height="7" fill="#6b3e32"/>
       <rect x="424" y="306" width="8" height="12" fill="#6b3e32"/>
       <rect x="480" y="306" width="8" height="12" fill="#6b3e32"/>
-      <!-- Claude's cute crab mascot jumps when Codex approaches -->
+      <!-- Clawd jumps when Codex approaches -->
       <g>
-        <!-- Body and face -->
-        <rect x="438" y="254" width="50" height="30" fill="#d97757"/>
-        <rect x="446" y="246" width="34" height="44" fill="#ee7d63"/>
-        <rect x="450" y="238" width="8" height="14" fill="#ee7d63"/>
-        <rect x="468" y="238" width="8" height="14" fill="#ee7d63"/>
-        <rect x="449" y="236" width="10" height="8" fill="#fff4dc"/>
-        <rect x="467" y="236" width="10" height="8" fill="#fff4dc"/>
-        <rect x="452" y="237" width="5" height="5" fill="#3b174f"/>
-        <rect x="470" y="237" width="5" height="5" fill="#3b174f"/>
-        <rect x="456" y="266" width="16" height="4" fill="#3b174f"/>
-        <rect x="460" y="270" width="8" height="4" fill="#fff4dc"/>
-        <!-- Waving left claw -->
-        <g>
-          <rect x="420" y="252" width="22" height="10" fill="#ee7d63"/>
-          <rect x="412" y="244" width="14" height="12" fill="#d97757"/>
-          <rect x="408" y="240" width="8" height="8" fill="#ee7d63"/>
-          <rect x="420" y="238" width="8" height="10" fill="#ee7d63"/>
-          <animateTransform attributeName="transform" type="rotate" values="0 438 258;-16 438 258;0 438 258" dur=".7s" begin="1.2s" repeatCount="indefinite"/>
+        <!-- Exact block silhouette from the supplied Clawd reference -->
+        <g fill="#d37355">
+          <rect x="442" y="236" width="57" height="41"/>
+          <rect x="428" y="250" width="84" height="14"/>
+          <rect x="442" y="277" width="7" height="15"/>
+          <rect x="456" y="277" width="7" height="15"/>
+          <rect x="477" y="277" width="7" height="15"/>
+          <rect x="491" y="277" width="8" height="15"/>
         </g>
-        <!-- Coconut-ready right claw -->
-        <g>
-          <rect x="484" y="254" width="28" height="10" fill="#ee7d63"/>
-          <rect x="506" y="246" width="14" height="13" fill="#d97757"/>
-          <rect x="514" y="242" width="8" height="9" fill="#ee7d63"/>
-          <rect x="504" y="240" width="8" height="10" fill="#ee7d63"/>
-          <animateTransform attributeName="transform" type="rotate" values="0 486 258;12 486 258;0 486 258" dur=".7s" begin="1.2s" repeatCount="indefinite"/>
-        </g>
-        <!-- Little crab legs -->
-        <rect x="440" y="284" width="9" height="8" fill="#d97757"/>
-        <rect x="452" y="286" width="9" height="8" fill="#d97757"/>
-        <rect x="466" y="286" width="9" height="8" fill="#d97757"/>
-        <rect x="478" y="284" width="9" height="8" fill="#d97757"/>
+        <rect x="449" y="242" width="7" height="7" fill="#000"/>
+        <rect x="484" y="242" width="7" height="7" fill="#000"/>
         <!-- Excited double jump as Codex walks closer -->
         <animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 -12;0 0;0 -8;0 0;0 0" keyTimes="0;.12;.18;.24;.3;.36;1" dur="8s" repeatCount="indefinite"/>
       </g>
