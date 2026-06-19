@@ -1,11 +1,14 @@
 <p align="center">
-  <img src="./assets/profile-banner.svg" alt="Chong Hao Ooi — building useful software for everyday problems" width="100%" />
+  <img src="./assets/animated-profile-banner.svg" alt="Chong Hao Ooi — building useful software for everyday problems" width="100%" />
 </p>
 
 <p align="center">
-  <a href="https://github.com/chonghaoooi?tab=repositories"><img src="https://img.shields.io/badge/Projects-Explore-00D9FF?style=for-the-badge&logo=github&logoColor=white" alt="Explore my projects" /></a>
+  <img src="./assets/typing-line.svg" alt="Developer, automation builder, full-stack explorer, and Android maker" width="700" />
+</p>
+
+<p align="center">
+  <a href="https://github.com/chonghaoooi?tab=repositories"><img src="https://img.shields.io/badge/Projects-Explore-00D9FF?style=for-the-badge&logo=github&logoColor=white" alt="Explore my projects" /></a>&nbsp;
   <a href="mailto:chonghaoooi28@gmail.com"><img src="https://img.shields.io/badge/Email-Let's%20talk-7C3AED?style=for-the-badge&logo=gmail&logoColor=white" alt="Email me" /></a>
-  <img src="https://komarev.com/ghpvc/?username=chonghaoooi&style=for-the-badge&color=0ea5e9&label=PROFILE+VIEWS" alt="Profile views" />
 </p>
 
 ## Hello, I'm Chong Hao 👋
@@ -18,6 +21,8 @@ I'm a developer and student at **Singapore Polytechnic** who likes turning small
 - 💬 Ask me about JavaScript, Node.js, Chrome extensions, Kotlin, or automating repetitive workflows.
 
 ## Selected work
+
+<p align="center"><img src="./assets/section-pulse.svg" alt="Animated signal divider" width="100%" /></p>
 
 <table>
   <tr>
@@ -48,17 +53,16 @@ I'm a developer and student at **Singapore Polytechnic** who likes turning small
 
 ## Toolbox
 
-<p>
-  <img src="https://skillicons.dev/icons?i=js,nodejs,express,mysql,html,css,kotlin,java,androidstudio,git,github,vscode&perline=12" alt="JavaScript, Node.js, Express, MySQL, HTML, CSS, Kotlin, Java, Android Studio, Git, GitHub, and VS Code" />
+<p align="center">
+  <img src="./assets/tech-marquee.svg" alt="Animated technology marquee: JavaScript, Node.js, Express, MySQL, HTML, CSS, Kotlin, Java, Android, Git, GitHub, and VS Code" width="100%" />
 </p>
 
 ## GitHub snapshot
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=chonghaoooi&show_icons=true&hide_border=true&bg_color=00000000&title_color=00B4D8&icon_color=7C3AED&text_color=64748B&rank_icon=github" alt="Chong Hao's GitHub stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=chonghaoooi&layout=compact&hide_border=true&bg_color=00000000&title_color=00B4D8&text_color=64748B&langs_count=6" alt="Chong Hao's most-used languages" />
+  <img src="./assets/dev-dashboard.svg" alt="Animated dashboard showing Chong Hao's development focus" width="100%" />
 </p>
 
 <p align="center">
-  <em>Build something useful. Learn what breaks. Make the next version better.</em>
+  <img src="./assets/footer-wave.svg" alt="Build something useful. Learn what breaks. Make the next version better." width="100%" />
 </p>
