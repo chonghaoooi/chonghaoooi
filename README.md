@@ -10,7 +10,7 @@
   <a href="https://github.com/chonghaoooi?tab=repositories"><img src="https://img.shields.io/badge/QUESTS-EXPLORE-EE7D63?style=for-the-badge&logo=github&logoColor=FFF4DC" alt="Explore my projects" /></a>&nbsp;
   <a href="mailto:chonghaoooi28@gmail.com"><img src="https://img.shields.io/badge/EMAIL-247E8A?style=for-the-badge&logo=gmail&logoColor=FFF4DC" alt="Email me" /></a>&nbsp;
   <a href="https://github.com/chonghaoooi"><img src="https://img.shields.io/github/followers/chonghaoooi?label=FOLLOW&style=for-the-badge&color=44205e&logo=github&logoColor=FFF4DC" alt="Follow on GitHub" /></a>&nbsp;
-  <a href="https://linkedin.com/in/chonghaoooi"><img src="https://img.shields.io/badge/LINKEDIN-0077B5?style=for-the-badge&logo=linkedin&logoColor=FFF4DC" alt="LinkedIn" /></a>&nbsp;
+  <a href="https://www.linkedin.com/in/chong-hao-ooi/"><img src="https://img.shields.io/badge/LINKEDIN-0077B5?style=for-the-badge&logo=linkedin&logoColor=FFF4DC" alt="LinkedIn" /></a>&nbsp;
   <img src="https://komarev.com/ghpvc/?username=chonghaoooi&style=for-the-badge&color=73306f&label=PROFILE+VIEWS" alt="Profile views" />
 </p>
 
