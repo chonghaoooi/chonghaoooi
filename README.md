@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/animated-profile-banner.svg" alt="Chong Hao Ooi — building useful software for everyday problems" width="100%" />
+  <img src="./assets/pixel-beach-banner.svg" alt="Chong Hao Ooi — building fun projects on an animated pixel-art beach" width="100%" />
 </p>
 
 <p align="center">
