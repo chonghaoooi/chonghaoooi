@@ -82,6 +82,6 @@
     <animateMotion path="M107 254C165 196 228 176 297 180 S428 136 487 144 S626 158 677 180 S808 244 867 254" dur="12s" repeatCount="indefinite" rotate="auto"/>
   </g>
 
-  <g font-family="Courier New,monospace" fill="#fff4dc" font-weight="700"><text x="24" y="28" font-size="18">CURRENT QUEST: KEEP SHIPPING</text><text x="976" y="320" text-anchor="end" font-size="14">EXPLORE  →  BUILD  →  LEVEL UP</text></g>
+  <g font-family="Courier New,monospace" fill="#fff4dc" font-weight="700"><text x="24" y="28" font-size="18">CURRENT QUEST: KEEP SHIPPING</text><text x="500" y="336" text-anchor="middle" font-size="13">EXPLORE  →  BUILD  →  LEVEL UP</text></g>
   <g fill="#ffe07a"><rect x="950" y="24" width="8" height="8"/><rect x="946" y="28" width="16" height="8"/><animate attributeName="opacity" values="1;.2;1" dur="1s" repeatCount="indefinite"/></g>
 </svg>
