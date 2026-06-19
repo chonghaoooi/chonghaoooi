@@ -68,27 +68,9 @@ I'm a developer and student at **Singapore Polytechnic** who likes turning small
 
 ## 🧭 Adventure Stats
 
-<table align="center" border="0" cellspacing="8" cellpadding="0">
-  <tr>
-    <td align="center">
-      <a href="https://github.com/chonghaoooi">
-        <img src="https://github-readme-stats.vercel.app/api?username=chonghaoooi&show_icons=true&hide_rank=true&card_width=380&title_color=EE7D63&text_color=3B174F&icon_color=247E8A&bg_color=FFF4DC&border_color=E3A64D&border_radius=10" alt="Chong Hao's GitHub stats" />
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://github.com/chonghaoooi?tab=repositories">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=chonghaoooi&layout=compact&langs_count=5&card_width=380&title_color=EE7D63&text_color=3B174F&bg_color=FFF4DC&border_color=E3A64D&border_radius=10" alt="Chong Hao's most used languages" />
-      </a>
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2" align="center">
-      <a href="https://github.com/chonghaoooi">
-        <img src="https://streak-stats.demolab.com/?user=chonghaoooi&stroke=EE7D63&background=FFF4DC&ring=247E8A&fire=EE7D63&currStreakNum=3B174F&sideNums=3B174F&currStreakLabel=247E8A&sideLabels=3B174F&dates=3B174F&border=E3A64D&border_radius=10" alt="Chong Hao's GitHub streak" />
-      </a>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img src="./assets/pixel-stats.svg" alt="Chong Hao's adventure stats: commits, PRs, contributions, streak, and languages" width="100%" />
+</p>
 
 <p align="center">
   <img src="./assets/pixel-sunset-footer.svg" alt="Animated pixel beach footer: build, learn, level up, repeat" width="100%" />
