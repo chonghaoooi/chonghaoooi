@@ -7,13 +7,23 @@
       <stop offset="1" stop-color="#2929ee"/>
     </linearGradient>
     <g id="pixel-dolphin">
-      <!-- Readable dolphin profile: beak, melon, dorsal fin, flippers, and tail flukes -->
-      <path d="M18-3c15-17 43-22 64-9 7 4 12 7 15 12h20l-10 7H96c-7 11-25 19-44 18-12-1-22-5-29-13l-7-2L5 20l3-12L0 1l12-1L4-13z" fill="#68cdd3"/>
-      <path d="M49-17c7-13 16-18 24-16l-5 19z" fill="#318fa5"/>
-      <path d="M48 20c7 11 15 16 23 17l-6-18z" fill="#318fa5"/>
-      <path d="M25 12c17 11 44 11 66-5h16l-12 10C73 31 43 33 25 20z" fill="#d5f7ee"/>
-      <rect x="84" y="-7" width="4" height="4" rx="2" fill="#103f5b"/>
-      <path d="M98 5h9" stroke="#247e8a" stroke-width="2"/>
+      <!-- Minecraft-style block dolphin, facing right -->
+      <!-- body -->
+      <rect x="-10" y="-4" width="20" height="8" fill="#5fc8d4"/>
+      <!-- snout -->
+      <rect x="10" y="-2" width="8" height="4" fill="#5fc8d4"/>
+      <!-- dorsal fin -->
+      <rect x="0" y="-8" width="8" height="4" fill="#5fc8d4"/>
+      <!-- tail upper prong -->
+      <rect x="-18" y="-7" width="8" height="4" fill="#5fc8d4"/>
+      <!-- tail lower prong -->
+      <rect x="-18" y="3" width="8" height="4" fill="#5fc8d4"/>
+      <!-- belly -->
+      <rect x="-6" y="0" width="16" height="4" fill="#b8eef2"/>
+      <!-- flipper -->
+      <rect x="-2" y="4" width="8" height="3" fill="#4ab8c4"/>
+      <!-- eye -->
+      <rect x="6" y="-3" width="3" height="3" fill="#0d3040"/>
     </g>
     <g id="clawd-speech">
       <rect x="4" y="4" width="206" height="28" fill="#3b174f"/>
@@ -71,25 +81,25 @@
       <animateTransform attributeName="transform" type="translate" values="25 0;-70 0;25 0" dur="4s" repeatCount="indefinite"/>
     </g>
 
-    <!-- Three dolphins breach and dive along true curved arcs, left to right -->
-    <g transform="translate(220 254)">
+    <!-- Three distant pixel dolphins breach in the far ocean -->
+    <g transform="translate(260 218)">
       <g opacity="0">
-        <use href="#pixel-dolphin"/>
-        <animateMotion path="M0 0 Q80 -112 170 0" rotate="auto" dur="5.4s" begin="0s" repeatCount="indefinite"/>
+        <use href="#pixel-dolphin" transform="scale(0.45)"/>
+        <animateMotion path="M0 0 Q50 -36 100 0" dur="5.4s" begin="0s" repeatCount="indefinite"/>
         <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.08;.9;1" dur="5.4s" begin="0s" repeatCount="indefinite"/>
       </g>
     </g>
-    <g transform="translate(490 254)">
+    <g transform="translate(530 214)">
       <g opacity="0">
-        <use href="#pixel-dolphin"/>
-        <animateMotion path="M0 0 Q80 -112 170 0" rotate="auto" dur="5.4s" begin="1.35s" repeatCount="indefinite"/>
+        <use href="#pixel-dolphin" transform="scale(0.45)"/>
+        <animateMotion path="M0 0 Q50 -36 100 0" dur="5.4s" begin="1.35s" repeatCount="indefinite"/>
         <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.08;.9;1" dur="5.4s" begin="1.35s" repeatCount="indefinite"/>
       </g>
     </g>
-    <g transform="translate(760 254)">
+    <g transform="translate(800 216)">
       <g opacity="0">
-        <use href="#pixel-dolphin"/>
-        <animateMotion path="M0 0 Q80 -112 170 0" rotate="auto" dur="5.4s" begin="2.7s" repeatCount="indefinite"/>
+        <use href="#pixel-dolphin" transform="scale(0.45)"/>
+        <animateMotion path="M0 0 Q50 -36 100 0" dur="5.4s" begin="2.7s" repeatCount="indefinite"/>
         <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.08;.9;1" dur="5.4s" begin="2.7s" repeatCount="indefinite"/>
       </g>
     </g>
