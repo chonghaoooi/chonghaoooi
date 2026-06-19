@@ -1,1 +1,104 @@
-<svg width="1200" height="320" viewBox="0 0 1200 320" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="bg" x2="1"><stop stop-color="#07111f"/><stop offset=".5" stop-color="#101a34"/><stop offset="1" stop-color="#17102e"/></linearGradient><linearGradient id="a"><stop stop-color="#00d9ff"><animate attributeName="stop-color" values="#00d9ff;#a855f7;#00d9ff" dur="5s" repeatCount="indefinite"/></stop><stop offset="1" stop-color="#a855f7"><animate attributeName="stop-color" values="#a855f7;#00d9ff;#a855f7" dur="5s" repeatCount="indefinite"/></stop></linearGradient><filter id="g"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs><rect width="1200" height="320" rx="24" fill="url(#bg)"/><circle cx="100" cy="60" r="180" fill="#00d9ff" opacity=".12"><animate attributeName="cx" values="100;280;100" dur="8s" repeatCount="indefinite"/><animate attributeName="r" values="160;240;160" dur="8s" repeatCount="indefinite"/></circle><circle cx="1100" cy="270" r="210" fill="#a855f7" opacity=".13"><animate attributeName="cx" values="1100;920;1100" dur="10s" repeatCount="indefinite"/></circle><g opacity=".12" stroke="#b8d8ff"><path d="M0 72H1200M0 152H1200M0 232H1200"/><path d="M120 0V320M280 0V320M440 0V320M600 0V320M760 0V320M920 0V320M1080 0V320"/></g><g transform="translate(90 105)" fill="none" stroke="url(#a)" stroke-width="8" stroke-linecap="round" filter="url(#g)"><path d="M42 0L0 55L42 110" stroke-dasharray="150"><animate attributeName="stroke-dashoffset" values="150;0;0;150" keyTimes="0;.25;.8;1" dur="5s" repeatCount="indefinite"/></path><path d="M112 0L154 55L112 110" stroke-dasharray="150"><animate attributeName="stroke-dashoffset" values="150;150;0;0;150" keyTimes="0;.12;.37;.82;1" dur="5s" repeatCount="indefinite"/></path><path d="M94 4L60 106" stroke-dasharray="110"><animate attributeName="stroke-dashoffset" values="110;110;0;0;110" keyTimes="0;.25;.5;.85;1" dur="5s" repeatCount="indefinite"/></path></g><g opacity="0"><text x="300" y="142" fill="white" font-family="Segoe UI,Arial" font-size="54" font-weight="700">Chong Hao Ooi</text><rect x="302" y="166" width="620" height="4" rx="2" fill="url(#a)"/><text x="300" y="217" fill="#b8c5da" font-family="Segoe UI,Arial" font-size="24" letter-spacing="1.2">BUILDING USEFUL SOFTWARE FOR EVERYDAY PROBLEMS</text><animate attributeName="opacity" values="0;1" dur="1.6s" fill="freeze"/></g><circle r="4" fill="#00d9ff" filter="url(#g)"><animateMotion path="M35 275 C250 225 430 305 650 255 S1000 210 1165 250" dur="7s" repeatCount="indefinite"/></circle><circle r="3" fill="#a855f7" filter="url(#g)"><animateMotion path="M1160 55 C940 110 760 35 540 75 S220 120 40 65" dur="9s" repeatCount="indefinite"/></circle><g transform="translate(1060 58)" fill="none" stroke="url(#a)" stroke-width="3"><path d="M25 0L50 14V42L25 56L0 42V14Z"><animateTransform attributeName="transform" type="rotate" from="0 25 28" to="360 25 28" dur="10s" repeatCount="indefinite"/></path><path d="M25 11L40 20V36L25 45L10 36V20Z"><animateTransform attributeName="transform" type="rotate" from="360 25 28" to="0 25 28" dur="7s" repeatCount="indefinite"/></path></g></svg>
+<svg width="1200" height="320" viewBox="0 0 1200 320" xmlns="http://www.w3.org/2000/svg" shape-rendering="crispEdges">
+  <defs>
+    <clipPath id="frame"><rect width="1200" height="320" rx="24"/></clipPath>
+    <filter id="text-shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feFlood flood-color="#3b174f" result="color"/>
+      <feComposite in="color" in2="SourceAlpha" operator="in" result="shadow"/>
+      <feOffset dx="5" dy="5" in="shadow" result="offset"/>
+      <feMerge><feMergeNode in="offset"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <!-- Pixel sunset sky -->
+    <rect width="1200" height="52" fill="#44205e"/>
+    <rect y="52" width="1200" height="46" fill="#73306f"/>
+    <rect y="98" width="1200" height="42" fill="#b94d72"/>
+    <rect y="140" width="1200" height="40" fill="#ee7d63"/>
+    <rect y="180" width="1200" height="28" fill="#ffb35c"/>
+
+    <!-- Pixel sun -->
+    <g fill="#ffe07a">
+      <rect x="548" y="72" width="104" height="8"/>
+      <rect x="532" y="80" width="136" height="12"/>
+      <rect x="524" y="92" width="152" height="48"/>
+      <rect x="532" y="140" width="136" height="12"/>
+      <rect x="548" y="152" width="104" height="8"/>
+      <animate attributeName="opacity" values=".92;1;.92" dur="4s" repeatCount="indefinite"/>
+    </g>
+
+    <!-- Tiny pixel clouds -->
+    <g fill="#ffb1a1" opacity=".75">
+      <rect x="158" y="70" width="72" height="8"/><rect x="174" y="62" width="40" height="8"/>
+      <rect x="888" y="100" width="112" height="8"/><rect x="912" y="92" width="56" height="8"/>
+      <animateTransform attributeName="transform" type="translate" values="-18 0;18 0;-18 0" dur="18s" repeatCount="indefinite"/>
+    </g>
+
+    <!-- Ocean -->
+    <rect y="208" width="1200" height="58" fill="#165a72"/>
+    <rect y="222" width="1200" height="12" fill="#247e8a"/>
+    <rect y="246" width="1200" height="20" fill="#103f5b"/>
+    <g fill="#63d2c6">
+      <rect y="216" width="84" height="6"/><rect x="132" y="216" width="116" height="6"/><rect x="310" y="216" width="72" height="6"/><rect x="458" y="216" width="128" height="6"/><rect x="660" y="216" width="94" height="6"/><rect x="820" y="216" width="132" height="6"/><rect x="1030" y="216" width="100" height="6"/>
+      <animateTransform attributeName="transform" type="translate" values="-90 0;20 0;-90 0" dur="5s" repeatCount="indefinite"/>
+    </g>
+    <g fill="#8ce4d5" opacity=".8">
+      <rect x="64" y="238" width="98" height="5"/><rect x="240" y="238" width="54" height="5"/><rect x="376" y="238" width="110" height="5"/><rect x="590" y="238" width="72" height="5"/><rect x="744" y="238" width="120" height="5"/><rect x="970" y="238" width="92" height="5"/>
+      <animateTransform attributeName="transform" type="translate" values="25 0;-70 0;25 0" dur="4s" repeatCount="indefinite"/>
+    </g>
+
+    <!-- Beach -->
+    <rect y="266" width="1200" height="54" fill="#e3a64d"/>
+    <rect y="266" width="1200" height="8" fill="#f6d273"/>
+    <g fill="#bd743c" opacity=".75">
+      <rect x="92" y="294" width="12" height="6"/><rect x="242" y="280" width="8" height="5"/><rect x="704" y="302" width="14" height="6"/><rect x="924" y="286" width="10" height="5"/><rect x="1080" y="306" width="18" height="6"/>
+    </g>
+
+    <!-- Left coconut tree, swaying around its base -->
+    <g>
+      <animateTransform attributeName="transform" type="rotate" values="-2 172 286;2 172 286;-2 172 286" dur="3.8s" repeatCount="indefinite"/>
+      <g fill="#6b3e32"><rect x="158" y="142" width="22" height="144"/><rect x="150" y="190" width="16" height="48"/><rect x="166" y="154" width="22" height="16" fill="#8d5638"/><rect x="158" y="202" width="22" height="14" fill="#8d5638"/><rect x="158" y="252" width="22" height="14" fill="#8d5638"/></g>
+      <g fill="#176b55"><rect x="166" y="122" width="18" height="44"/><rect x="112" y="122" width="62" height="18"/><rect x="88" y="132" width="44" height="16"/><rect x="184" y="120" width="64" height="18"/><rect x="224" y="132" width="48" height="16"/><rect x="128" y="96" width="18" height="42"/><rect x="202" y="92" width="18" height="46"/></g>
+      <g fill="#29956f"><rect x="98" y="112" width="62" height="12"/><rect x="198" y="106" width="62" height="12"/><rect x="150" y="88" width="16" height="44"/><rect x="182" y="86" width="16" height="44"/></g>
+      <g fill="#70402c"><rect x="154" y="128" width="15" height="15"/><rect x="174" y="124" width="15" height="15"/><rect x="192" y="130" width="15" height="15"/></g>
+    </g>
+
+    <!-- Left coconut drops once per five-second loop -->
+    <rect x="174" y="132" width="15" height="15" fill="#70402c" opacity="0">
+      <animate attributeName="y" values="132;132;270;270" keyTimes="0;.18;.72;1" dur="5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.17;.7;.76;1" dur="5s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="rotate" values="0 181 139;0 181 139;540 181 139;540 181 139" keyTimes="0;.18;.72;1" dur="5s" repeatCount="indefinite"/>
+    </rect>
+    <g fill="#f6d273" opacity="0"><rect x="160" y="282" width="10" height="5"/><rect x="194" y="278" width="12" height="5"/><rect x="178" y="288" width="8" height="5"/>
+      <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;.7;.75;.84;1" dur="5s" repeatCount="indefinite"/>
+    </g>
+
+    <!-- Right coconut tree -->
+    <g>
+      <animateTransform attributeName="transform" type="rotate" values="2 1032 292;-2 1032 292;2 1032 292" dur="4.2s" repeatCount="indefinite"/>
+      <g fill="#6b3e32"><rect x="1020" y="148" width="22" height="144"/><rect x="1012" y="208" width="16" height="42"/><rect x="1028" y="164" width="22" height="14" fill="#8d5638"/><rect x="1020" y="220" width="22" height="14" fill="#8d5638"/><rect x="1020" y="270" width="22" height="14" fill="#8d5638"/></g>
+      <g fill="#176b55"><rect x="1028" y="126" width="18" height="42"/><rect x="970" y="124" width="66" height="18"/><rect x="940" y="136" width="50" height="16"/><rect x="1040" y="122" width="70" height="18"/><rect x="1088" y="134" width="46" height="16"/><rect x="990" y="96" width="18" height="44"/><rect x="1064" y="92" width="18" height="48"/></g>
+      <g fill="#29956f"><rect x="952" y="114" width="64" height="12"/><rect x="1058" y="108" width="62" height="12"/><rect x="1014" y="88" width="16" height="44"/><rect x="1046" y="86" width="16" height="44"/></g>
+      <g fill="#70402c"><rect x="1016" y="130" width="15" height="15"/><rect x="1036" y="126" width="15" height="15"/><rect x="1054" y="132" width="15" height="15"/></g>
+    </g>
+
+    <!-- Right coconut drops on the same five-second loop, offset halfway -->
+    <rect x="1036" y="134" width="15" height="15" fill="#70402c" opacity="0">
+      <animate attributeName="y" values="134;134;274;274" keyTimes="0;.18;.72;1" dur="5s" begin="2.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.17;.7;.76;1" dur="5s" begin="2.5s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="rotate" values="0 1043 141;0 1043 141;-540 1043 141;-540 1043 141" keyTimes="0;.18;.72;1" dur="5s" begin="2.5s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- Pixel title -->
+    <g filter="url(#text-shadow)" font-family="Courier New,monospace" text-anchor="middle">
+      <text x="600" y="118" fill="#fff4dc" font-size="54" font-weight="900" letter-spacing="3">CHONG HAO OOI</text>
+      <text x="600" y="162" fill="#fff4dc" font-size="25" font-weight="700" letter-spacing="5">BUILDING FUN PROJECTS</text>
+      <animate attributeName="opacity" values="0;1" dur="1.2s" fill="freeze"/>
+    </g>
+
+    <!-- Pixel birds -->
+    <g fill="none" stroke="#55234e" stroke-width="5"><path d="M760 72l10-7 10 7 10-7 10 7"/><path d="M830 94l8-6 8 6 8-6 8 6"/>
+      <animateTransform attributeName="transform" type="translate" values="-20 0;20 -4;-20 0" dur="8s" repeatCount="indefinite"/>
+    </g>
+  </g>
+</svg>
