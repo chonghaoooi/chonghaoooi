@@ -72,8 +72,14 @@ I'm a developer and student at **Singapore Polytechnic** who likes turning small
   <img src="./assets/pixel-stats.svg" alt="Chong Hao's adventure stats: commits, PRs, contributions, streak, and languages" width="100%" />
 </p>
 
+## 🔎 Where's Clawd?
+
 <p align="center">
-  <img src="./assets/pixel-sunset-footer.svg" alt="Animated pixel beach footer: build, learn, level up, repeat" width="100%" />
+  <img src="./assets/wheres-clawd.svg" alt="Where's Clawd? — find the one wearing the red and white striped hat in the pixel beach crowd" width="100%" />
+</p>
+
+<p align="center">
+  <img src="./assets/pixel-sunset-footer.svg" alt="Animated pixel beach footer: keep building" width="100%" />
 </p>
 
 <!-- DEV_ACTIVITY_START -->
