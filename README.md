@@ -83,7 +83,7 @@ I'm a developer and student at **Singapore Polytechnic** who likes turning small
 <!-- DEV_ACTIVITY_START -->
 ## 🚀 Latest Dev Activity
 > _Auto-updated every 6 hours by GitHub Actions_
-- 🐛 **[[Performance] Authentication process is executing too slowly / not moving fast enough](https://github.com/chonghaoooi/SP-Auto-Authentication/issues/1)** `chonghaoooi/SP-Auto-Authentication` — Jun 19, 2026
+- 🐛 **[[Performance] Authentication process is executing too slowly / not moving fast enough](https://github.com/chonghaoooi/auto-auth/issues/1)** `chonghaoooi/auto-auth` — Jun 19, 2026
 - 📥 **[[codex] make Claude the jumping crab mascot](https://github.com/chonghaoooi/chonghaoooi/pull/8)** `chonghaoooi/chonghaoooi` — Jun 19, 2026
 - 📥 **[[codex] refresh the AI beach scene immediately](https://github.com/chonghaoooi/chonghaoooi/pull/7)** `chonghaoooi/chonghaoooi` — Jun 19, 2026
 - 📥 **[[codex] add Claude and Codex to the pixel beach](https://github.com/chonghaoooi/chonghaoooi/pull/6)** `chonghaoooi/chonghaoooi` — Jun 19, 2026
