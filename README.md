@@ -90,3 +90,4 @@ I'm a developer and student at **Singapore Polytechnic** who likes turning small
 - 📥 **[[codex] turn the profile into one pixel-art world](https://github.com/chonghaoooi/chonghaoooi/pull/5)** `chonghaoooi/chonghaoooi` — Jun 19, 2026
 - 📥 **[[codex] refresh the pixel beach banner immediately](https://github.com/chonghaoooi/chonghaoooi/pull/4)** `chonghaoooi/chonghaoooi` — Jun 19, 2026
 <!-- DEV_ACTIVITY_END -->
+## WORK IN PROGRESS
