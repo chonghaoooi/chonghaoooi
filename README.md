@@ -1,20 +1,17 @@
 # Chong Hao Ooi
 
-Developer and student at Singapore Polytechnic, focused on building practical software with clean interfaces, reliable automation, and maintainable systems.
+Developer and student at Singapore Polytechnic, focused on building practical software.
 
-I work across full-stack web development, Android apps, browser tooling, and workflow automation. I enjoy turning repetitive or messy processes into simple tools that are useful in everyday work.
+I work across full-stack web development, local llms, ai tools, browser tooling, and automation.
 
 ## Skills
 
-JavaScript, Node.js, Express, MySQL, Kotlin, Java, Android, HTML, CSS, PowerShell, Git, and GitHub.
+JavaScript, Node.js, Express, MySQL, HTML, CSS, PowerShell, Git, typescript and go
 
 ## Current Focus
 
-Backend engineering, mobile development, automation, and product-minded software design.
+Backend engineering, ai tools, automation and cloud certifications
 
-## Daily Micro-Quest
-
-Today's commit fed the build pipeline one tiny pixel snack.
 
 ## Contact
 
