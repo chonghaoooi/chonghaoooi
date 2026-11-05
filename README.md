@@ -30,9 +30,8 @@ Dell InnovateDash 2026 finalist. UiPath certified. Apple Developer Society subco
 | [kaki](https://github.com/chonghaoooi/kaki) · [Live demo](https://kaki-orcin.vercel.app) | Student community app. Students find a small campus plan, then stay in touch through clubs, peer mentorship, and private support. | React, TypeScript, Node.js, SQLite |
 | [TrustLadder](https://github.com/chonghaoooi/OCBC-Trust-Ladder) · [Live demo](https://ocbc-trust-ladder.vercel.app) | Scripted prototype for bank staff to review banking-agent drafts, check evidence, and record a decision. Built for the OCBC Ignite challenge. The demo does not call a live model or a bank. | React, Vite |
 | [+1lean](https://github.com/chonghaoooi/roblox-wellness-site) | Community fitness tracker: meal photos, workout posts, leaderboards, an optional AI coach, and optional phone step sync. | Next.js, TypeScript, Postgres, Capacitor |
-| [agni-bot](https://github.com/chonghaoooi/agni-bot) | Self-hosted AI agent: a local server, a web client, and scheduled jobs. Public fork of Agni. | Bun, TypeScript, React |
 | [auto-auth](https://github.com/chonghaoooi/auto-auth) | Chrome and Edge extension that completes Microsoft sign-in, including the TOTP code, for Outlook and Teams. Credentials stay in the browser. | TypeScript, Manifest V3 |
-| [ClashAI](https://github.com/chonghaoooi/ClashAI) | Deep-learning model that learns to play Clash Royale from the screen. Public fork. | Python, PyTorch |
+| [ccabot](https://github.com/chonghaoooi/ccabot) | Discord bot for CCA event posts and @CCA reminders. An organiser can type an event, or the bot can take one from a public form, pasted text, or a screenshot. OCR reads the screenshot. A local Ollama model extracts the fields. | Python, discord.py, Ollama, Tesseract |
 | MemWorker | Turns social-worker notes into AI summaries for the Singapore Children's Society. Dell InnovateDash 2026 finalist. No public repository. | — |
 
 ## Looking for
