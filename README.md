@@ -36,7 +36,13 @@ Dell InnovateDash 2026 finalist. UiPath certified. Apple Developer Society subco
 | [ccabot](https://github.com/chonghaoooi/ccabot) | Discord bot for CCA event announcements and member reminders. An organiser can enter an event, or the bot can read a public form, pasted text, or a screenshot. OCR reads the screenshot. A local Ollama model extracts the fields. | Python, discord.py, Ollama, Tesseract |
 | [PDAS-CA1](https://github.com/chonghaoooi/PDAS-CA1) | School notebook on provided LinkedIn job-posting files. Pandas merges the files and estimates annual salary. Matplotlib charts compare salary by experience level and by whether a posting is marked remote. The salary comparison uses disclosed USD postings only. | Python, pandas, Matplotlib |
 | UiPath RPA | RPA workflow automation built with UiPath. No public repository. | UiPath |
-| MemWorker | Turns social-worker notes into AI summaries for the Singapore Children's Society. Dell InnovateDash 2026 finalist. No public repository. | — |
+| [MemWorker](https://github.com/NachikethReddyY/MemWorker) | Mobile memory assistant for social workers at the Singapore Children's Society. It captures client visits and turns them into case summaries. Dell InnovateDash 2026 finalist. Lead contributor on the team repository. | React Native, Expo, TypeScript |
+
+## Team contributions
+
+[Agni](https://github.com/NachikethReddyY/agni-bot) is a self-hosted AI agent in a teammate's repository. Merged pull requests: a ChatGPT subscription provider and onboarding ([#19](https://github.com/NachikethReddyY/agni-bot/pull/19)), memory search that covers every saved fact and carries summaries into tasks ([#1](https://github.com/NachikethReddyY/agni-bot/pull/1)), the ChatGPT callback page theme ([#20](https://github.com/NachikethReddyY/agni-bot/pull/20)), and a bot debugger with the instant lane and the tool and token budgets removed ([#34](https://github.com/NachikethReddyY/agni-bot/pull/34)).
+
+[ReDDone](https://github.com/NachikethReddyY/reddone) is a teammate's approval-gated tool that turns authorized market evidence into a verified application and deployment. Contributions there are selectable workflow models and a Railway-ready backend package.
 
 ## Looking for
 
