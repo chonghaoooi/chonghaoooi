@@ -4,6 +4,13 @@ Full-stack and AI product developer. Year 2, Diploma in Information Technology (
 
 黄崇皓 · 新加坡理工学院信息技术文凭二年级 · 2027年3月起可实习（产品 / 前端 / 全栈 / AI 应用）
 
+## Main products
+
+| Project | What it does | Stack |
+| --- | --- | --- |
+| [AgniBot](https://github.com/AgniAnt/AgniBot) | Self-hosted messaging app where named AI bots each keep their own role and memory. Bun and TypeScript server with a WebSocket protocol, model router and job queue; native SwiftUI Mac client. | TypeScript, Bun, Swift, SwiftUI |
+| [AgniReview](https://github.com/AgniAnt/aReview) | In-house AI code review tool, a cheaper alternative to hosted review products. In progress. | — |
+
 ## About
 
 I am a Singapore Polytechnic student. I build web products and applied AI tools, including a student community app, a community fitness and wellness tracker, and a hackathon prototype for AI-agent assurance.
@@ -25,18 +32,32 @@ Dell InnovateDash 2026 finalist. UiPath certified. Apple Developer Society subco
 ![Ollama](https://img.shields.io/badge/Ollama-0F172A?style=flat-square&logo=ollama&logoColor=white)
 ![Capacitor](https://img.shields.io/badge/Capacitor-0F172A?style=flat-square&logo=capacitor&logoColor=53B9FF)
 
-## Featured projects
+## Projects
 
 | Project | What it does | Stack |
 | --- | --- | --- |
-| [kaki](https://github.com/chonghaoooi/kaki) · [Live demo](https://kaki-orcin.vercel.app) | Student community app. Students find a small campus plan, then stay in touch through clubs, peer mentorship, and private support. | React, TypeScript, Node.js, SQLite |
-| [TrustLadder](https://github.com/chonghaoooi/OCBC-Trust-Ladder) · [Live demo](https://ocbc-trust-ladder.vercel.app) | Hackathon project for the OCBC Ignite Challenge. An AI-agent assurance prototype: bank staff review agent drafts, check evidence, and record a decision. The demo uses scripted data. It does not call a live model or connect to a bank. | React, Vite |
+| [MemWorker](https://github.com/NachikethReddyY/MemWorker) | Mobile case-workflow app for Singapore Children's Society youth workers. Turns notes and recordings into summaries, follow-ups and risk flags. Dell InnovateDash 2026 Finalist. | React Native, Expo, TypeScript |
+| [Kaki](https://github.com/chonghaoooi/kaki) · [Live demo](https://kaki-orcin.vercel.app) | Student community app. Students find a small campus plan, then stay in touch through clubs, peer mentorship, and private support. MAJU Hackathon 2026. | React, TypeScript, Node.js, SQLite |
+| [TrustLadder](https://github.com/chonghaoooi/OCBC-Trust-Ladder) | AI agent gateway for the OCBC Ignite Challenge 2026. An LLM judge runs five checks on bank chatbot drafts before a human officer approves release. | Python, OpenAI, OpenTelemetry |
+| [CCAbot](https://github.com/chonghaoooi/ccabot) | Discord bot for CCA event announcements and member reminders. An organiser can enter an event, or the bot can read a public form, pasted text, or a screenshot. OCR reads the screenshot. A local Ollama model extracts the fields. | Python, discord.py, Ollama, Tesseract |
+
+## Small builds
+
+| Project | What it does | Stack |
+| --- | --- | --- |
+| [+1 lean](https://github.com/chonghaoooi/plus1lean) | AI calorie and gym app with a private friends-only feed where AI personas react to food and gym choices. | TypeScript |
+| [CCA attendance reminder](https://github.com/chonghaoooi/ats-reminder) | Sounds my phone when it is time to take attendance, based on my school timetable. | Kotlin |
+| [AI proxy gateway](https://github.com/chonghaoooi/ai-proxy-tailscale) | CLIProxyAPI behind a Node gateway with per-user keys over Tailscale. | JavaScript, Node.js |
+| [Uptime monitor](https://github.com/chonghaoooi/ai-proxy-tailscale/tree/main/service-monitor) · [Status page](https://ability1.statuspage.io/) | Cloudflare Worker that checks /health of my Tailscale services each minute and feeds a public status page. | Cloudflare Workers |
+
+## Other projects
+
+| Project | What it does | Stack |
+| --- | --- | --- |
 | [Wellness Site](https://github.com/chonghaoooi/roblox-wellness-site) | A professional community fitness and wellness tracker: meal logs, workout posts, leaderboards, an optional AI coach, and optional phone step sync. | Next.js, TypeScript, Postgres, Capacitor |
 | [auto-auth](https://github.com/chonghaoooi/auto-auth) | Chrome and Edge extension that completes Microsoft sign-in, including the TOTP code, for Outlook and Teams. Credentials stay in the browser. | TypeScript, Manifest V3 |
-| [ccabot](https://github.com/chonghaoooi/ccabot) | Discord bot for CCA event announcements and member reminders. An organiser can enter an event, or the bot can read a public form, pasted text, or a screenshot. OCR reads the screenshot. A local Ollama model extracts the fields. | Python, discord.py, Ollama, Tesseract |
 | [PDAS-CA1](https://github.com/chonghaoooi/PDAS-CA1) | School notebook on provided LinkedIn job-posting files. Pandas merges the files and estimates annual salary. Matplotlib charts compare salary by experience level and by whether a posting is marked remote. The salary comparison uses disclosed USD postings only. | Python, pandas, Matplotlib |
 | UiPath RPA | RPA workflow automation built with UiPath. No public repository. | UiPath |
-| [MemWorker](https://github.com/NachikethReddyY/MemWorker) | Mobile memory assistant for social workers at the Singapore Children's Society. It captures client visits and turns them into case summaries. Dell InnovateDash 2026 finalist. Lead contributor on the team repository. | React Native, Expo, TypeScript |
 
 ## Team contributions
 
