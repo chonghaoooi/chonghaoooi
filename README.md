@@ -2,8 +2,6 @@
 
 Full-stack and AI product developer. Year 2, Diploma in Information Technology (AI & Analytics), Singapore Polytechnic. GPA 3.70/4.00.
 
-黄崇皓 · 新加坡理工学院信息技术文凭二年级 · 2027年3月起可实习（产品 / 前端 / 全栈 / AI 应用）
-
 ## Main products
 
 | Project | What it does | Stack |
